@@ -1,0 +1,7 @@
+com.k15t.pat
+com.k15t.pat.domain
+com.k15t.pat.exception
+com.k15t.pat.registration
+com.k15t.pat.repository
+com.k15t.pat.service
+com.k15t.pat.validations

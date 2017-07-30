@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	layout:decorator="layouts/main">
+<head>
+<title>Registration Success</title>
+</head>
+<body>
+
+	<div layout:fragment="content">
+
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Name: </label>
+				<div class="col-md-10">
+					<p class="form-control-static" th:text="${registration.name}">name</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-sm-2 control-label">email</label>
+				<div class="col-md-10">
+					<p class="form-control-static" th:text="${registration.email}">email</p>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-sm-2 control-label">address</label>
+				<div class="col-md-10">
+					<p class="form-control-static" th:text="${registration.address}">address</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Phone Number</label>
+				<div class="col-md-10">
+					<p class="form-control-static" th:text="${registration.phoneNumber}">phoneNumber</p>
+				</div>
+			</div>
+			
+		</form>
+
+	</div>
+
+</body>
+</html>
